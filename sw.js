@@ -17,11 +17,7 @@ var filesToCache = [
   "/images/painting/unsplash-painting-4.jpg",
   "/images/painting/unsplash-painting-5.jpg",
   "/images/painting/unsplash-painting-6.jpg",
-  "/images/painting/unsplash-painting.jpg",
-  "/images/photo/unsplash-company.jpg",
-  "/images/photo/unsplash-event.jpg",
-  "/images/photo/unsplash-party.jpg",
-  "/images/photo/unsplash-wedding.jpg"
+  "/images/painting/unsplash-painting.jpg"
 ];
 
 // Start and cache all the needed files
