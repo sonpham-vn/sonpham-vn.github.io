@@ -1,0 +1,106 @@
+/*This document is a Cascading Style Sheet */
+
+/* STEP 1 : Create a simple 'type' selector to style the H1 HTML element */
+h1{
+}
+
+/* STEP 2: MULTIPLE ELEMENTS IN ONE - Header & Footer - Create a CSS rule that applies to the header and footer, text-aligns in the center, white text, background color of the flower image, and font-size 30px*/
+
+
+footer{
+   padding: 30px;
+   text-align: center;
+   color: rgb(179, 174, 174);
+   font-size: 30px;
+   font-weight: 10;
+}
+
+/*We do this so the header and footer stretch 100% of the way across the screen because of default margins in the body element in html*/
+body{
+   margin:0;
+}
+
+/* STEP 3: html font family - Make a CSS rule that targets all font on the webpage and sets the font to p.b Arial, Helvetica, sans-serif*/
+html {
+   /* font-family: Arial, Helvetica, sans-serif;*/
+
+   scroll-behavior: smooth;
+
+}
+
+/* STEP 4: Paragraph dynamic width - Make a CSS rule that sets the width of a paragraph element to 50% */
+p {
+   text-align:left;
+   font-size: 20px;
+   
+}
+
+/* STEP 5: TYPE/ELEMENT SELECTOR - Create a rule with a selector that targets all H3 elements , setting them to color yellow */
+h2{
+   text-align:left;
+}
+
+/*STEP 6: Create a div container - Make a CSS rule that centers the containing div around the paragraphs and adds a border around all the text.*/
+.container{
+
+}
+
+/*STEP 7: CLASS selector - Build another CSS rule that targets all elements within the class 'odd_number' and sets the background-color to '#BFB47A' */
+.alternating{
+   background-color: silver;
+}
+
+/*STEP 8: ID Selector - Make another CSS rule that targets an element with the id 'first' and sets the background color to '#A9B9D9' */
+#first{
+   background-color: #A9B9D9;
+}
+
+#sologan{
+    font-size: 80px;
+    text-align: center;
+    font-family: "Snell Roundhand", cursive;
+    color: #772b6a;
+    line-height: 60px;
+ }
+
+ #topbtn{
+    color:rgb(178, 166, 189);
+ }
+
+/*Step 9: Pretty Image - Create a CSS rule that centers the image, shrinks the size and adds a round border around it.*/
+
+img{
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+
+.checked{
+   color:orange;
+}
+
+.center {
+    text-align: center;
+    font-weight: 10;
+    color: #ad8ea8;
+    font-family: Courier New, monospace;
+  }
+
+  .center-gray {
+   text-align: center;
+   font-weight: 10;
+   color: #50464e;
+   font-family: Courier New, monospace;
+ }
+
+  .productdesc {
+   text-align: center;
+   margin-top:50px;
+   font-weight: 10;
+   color: #ad8ea8;
+   font-family: Courier New, monospace;
+ }
+
+
+
+
