@@ -6,7 +6,8 @@ var filesToCache = [
   "/painting.html",
   "/photo.html",
   "/css/style.css",
-  "/js/main.js"
+  "/js/main.js",
+  "/images/common/paint-bg.jpg"
 ];
 
 // Start and cache all the needed files
