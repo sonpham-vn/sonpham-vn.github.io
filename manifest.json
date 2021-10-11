@@ -2,7 +2,7 @@
     "name": "Camellia Photography",
     "short_name": "Camellia",
     "icons": [{
-        "src": "images/logo/hello-icon.128.png",
+        "src": "images/logo/hello-icon-128.png",
         "sizes": "128x128",
         "type": "image/png"
     },
