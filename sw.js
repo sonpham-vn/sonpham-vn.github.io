@@ -7,7 +7,17 @@ var filesToCache = [
   "/photo.html",
   "/css/style.css",
   "/js/main.js",
-  "/images/common/paint-bg.jpg"
+  "/images/common/paint-bg.jpg",
+  "/images/contact/unsplash-contact.jpg",
+  "/images/home/pexels-painting.jpg",
+  "/images/contact/pexels-photography.jpg",
+  "/images/painting/unsplash-painting-1.jpg",
+  "/images/painting/unsplash-painting-2.jpg",
+  "/images/painting/unsplash-painting-3.jpg",
+  "/images/painting/unsplash-painting-4.jpg",
+  "/images/painting/unsplash-painting-5.jpg",
+  "/images/painting/unsplash-painting-6.jpg",
+  "/images/painting/unsplash-painting.jpg"
 ];
 
 // Start and cache all the needed files
