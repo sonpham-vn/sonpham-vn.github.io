@@ -42,6 +42,9 @@ h2{
 
 /*STEP 6: Create a div container - Make a CSS rule that centers the containing div around the paragraphs and adds a border around all the text.*/
 .container{
+   margin-top: 5px;
+   margin-bottom: 5px;
+
 
 }
 
@@ -61,6 +64,8 @@ h2{
     font-family: "Snell Roundhand", cursive;
     color: #772b6a;
     line-height: 60px;
+    display:block;
+    transition:all 3s;
  }
 
  #topbtn{
@@ -72,12 +77,34 @@ h2{
 img{
    margin-left:auto;
    margin-right:auto;
-   display:block;
 }
 
-.checked{
-   color:orange;
+#painting_img_1{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	display:block;
 }
+
+#painting_img_2{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	display:block;
+}
+
+.popular{
+   color:rgb(134, 9, 93);
+}
+
+.social{
+	color:rgb(179, 174, 174);
+}
+
+.cart-btn {
+   margin-bottom: 10px;
+}
+
 
 .center {
     text-align: center;

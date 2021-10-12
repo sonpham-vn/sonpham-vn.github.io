@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- meta tags -->
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--title -->
+    <title>Camellia Photography</title>
+
+    <!-- external link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div style="background-image: url('images/common/paint-bg.jpg')">
+      <!--navbar -->
+      <nav class="navbar navbar-expand-md mb-5 navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/logo/camellia-icon-128.png"
+              width="27px"
+              style="display: inline"
+            />
+            <strong>Camellia Photography</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerBen"
+            aria-controls="navbarTogglerBen"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-right"
+            id="navbarTogglerBen"
+          >
+            <ul class="navbar-nav ms-auto flex-nowrap">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photo.html">Photography</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="painting.html">Painting</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="cart.html"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- page content -->
+
+      <div class="container">
+        <a id="top"></a>
+        <!-- sologan -->
+        <p id="sologan">Cart Items</p>
+      </div>
+
+      <div class="container">
+        <div class="list-group">
+          <a
+            class="list-group-item list-group-item-action active list-group-item-info"
+            href="painting.html"
+            >Check Availability</a
+          >
+          <a
+            class="list-group-item list-group-item-action disabled bg-transparent"
+            href="index.html"
+            >Cancel order</a
+          >
+
+          <a
+            class="
+              list-group-item list-group-item-action
+              d-flex
+              justify-content-between
+              align-items-center
+              bg-transparent
+            "
+            href="#"
+            >Processing
+            <span class="badge bg-success rounded-pill">1</span>
+          </a>
+
+          <a
+            class="
+              list-group-item list-group-item-action
+              d-flex
+              justify-content-between
+              align-items-center
+              bg-transparent
+            "
+            href="#"
+            >In the cart
+            <span class="badge bg-primary rounded-pill">1</span>
+          </a>
+
+          <a
+            class="
+              list-group-item list-group-item-action
+              d-flex
+              justify-content-between
+              align-items-center
+              bg-transparent
+            "
+            href="#"
+            >Past Orders
+            <span class="badge bg-secondary rounded-pill">0</span>
+          </a>
+        </div>
+      </div>
+
+      <hr style="width: 80%; margin: auto" />
+
+      <h3 class="productdesc">We are processing</h3>
+
+      <div class="container">
+        <div class="row mt-5 mb-5">
+          <div class="col-md-6">
+            <img
+              id="painting_img_1"
+              class="img-fluid"
+              src="images/painting/unsplash-painting-1.jpg"
+              alt="painting portfolio 1"
+            />
+          </div>
+          <div class="col-md-6">
+            <h4>Flower in the vase</h4>
+            <h6>DIGITAL</h6>
+            <span class="fas fa-heart popular"></span>
+            <span class="fas fa-heart popular"></span>
+            <span class="fas fa-heart popular"></span>
+            <br />
+            <h6>$999.99</h6>
+            <h6>Order Date: Oct 11 2021</h6>
+          </div>
+
+        </div>
+      </div>
+
+      <h3 class="productdesc">In the cart</h3>
+
+      <div class="container">
+        <div class="row mt-5 mb-5">
+          <div class="col-md-6">
+            <img
+              id="painting_img_2"
+              class="img-fluid"
+              src="images/painting/unsplash-painting-2.jpg"
+              alt="painting portfolio 2"
+            />
+          </div>
+          <div class="col-md-6">
+          <h4>A bounquet for you</h4>
+            <h6>DIGITAL</h6>
+            <span class="fas fa-heart popular"></span>
+            <span class="fas fa-heart popular"></span>
+            <span class="fas fa-heart popular"></span>
+            <span class="fas fa-heart popular"></span>
+            <br />
+            <h6>$1000.99</h6>
+            <h6>Order Date: Oct 11 2021</h6>
+            <button type="button" class="btn btn-warning">
+              <i class="fas fa-ban"></i> Remove from cart
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- back to top -->
+        <a
+          href="#"
+          class="d-flex justify-content-center"
+          id="topbtn"
+          style="text-decoration: none"
+        >
+          <i class="fas fa-chevron-circle-up fa-3x"></i
+        ></a>
+      </div>
+
+      <!-- footer info -->
+      <footer>
+        <h6>
+          © 2021 Camellia Photography.<br />Contact: camelliaphoto@gmail.com
+        </h6>
+        <h4>
+          <a
+            href="https://facebook.com"
+            id="fbbtn"
+            style="text-decoration: none"
+          >
+            <i class="fab fa-facebook social"></i
+          ></a>
+
+          <a
+            href="https://instagram.com"
+            id="fbbtn"
+            style="text-decoration: none"
+          >
+            <i class="fab fa-instagram-square social"></i
+          ></a>
+        </h4>
+      </footer>
+
+      <!-- js script for bootstrap-->
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"
+      ></script>
+
+      <script
+        src="https://kit.fontawesome.com/8ba5539808.js"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
