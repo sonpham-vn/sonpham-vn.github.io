@@ -26,7 +26,7 @@
     },
 
     {
-        "src": "images/logo/hello-icon-256.png",
+        "src": "images/logo/camellia-icon-256.png",
         "sizes": "256x256",
         "type": "image/png",
         "purpose": "any maskable"
@@ -43,5 +43,21 @@
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "white",
-    "theme_color": "white"
+    "theme_color": "white",
+    "shortcuts": [
+        {
+            "name": "Check photography",
+            "short_name": "photography",
+            "description": "check photography service",
+            "url":"/photo.html",
+            "icons":[{"src":"images/logo/camellia-icon-128.png","sizes":"128x128"}]
+        },
+        {
+            "name": "Check paiting",
+            "short_name": "paiting",
+            "description": "check painting service",
+            "url":"/painting.html",
+            "icons":[{"src":"images/logo/camellia-icon-128.png","sizes":"128x128"}]
+        }
+    ]
 }
